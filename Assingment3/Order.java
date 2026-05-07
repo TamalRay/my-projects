@@ -23,7 +23,7 @@ public class Order {
 
     public void  setUnitPrice(double price) throws Exception{
          if (price<=0) {
-        throw new Exception("Unit price must be greater than zero.");
+        throw new Exception("unit price must be greater than zero.");
         }
         this.unitprice = price;
     }
